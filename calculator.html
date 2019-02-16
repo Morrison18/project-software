@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Single Digit Calculator</title>
+	<script src="calculator.js"></script>
+</head>
+
+<body>
+	<form name="calculator_form">
+		<input type="text" id="calc_fld1" name="calc_fld"><br><br>
+		<table border='1px solid black' id='t1'>
+			<tr>		
+				<td><button type="button" id="b1" onclick="click1()">1</button></td>
+				<td><button type="button" id="b2" onclick="click2()">2</button></td>
+				<td><button type="button" id="b3" onclick="click3()">3</button></td>
+			</tr>
+			<tr>
+				<td><button type="button" id="b4" onclick="click4()">4</button></td>
+				<td><button type="button" id="b5" onclick="click5()">5</button></td>
+				<td><button type="button" id="b6" onclick="click6()">6</button></td>
+			</tr>
+			<tr>
+				<td><button type="button" id="b7" onclick="click7()">7</button></td>
+				<td><button type="button" id="b8" onclick="click8()">8</button>	</td>
+				<td><button type="button" id="b9" onclick="click9()">9</button>	</td>
+			</tr>
+			<tr>
+				<td><button type="button" id="b0" onclick="click0()">0</button></td>
+				<td><button type="button" id="bplus" onclick="clickplus()">+</button></td>
+				<td><button type="button" id="bminus" onclick="clickminus()">-</button></td>
+			</tr>
+			<tr>
+				<td><button type="button" id="bmulitply" onclick="clickmulitply()">*</button></td>
+				<td><button type="button" id="bdivide" onclick="clickdivide()">/</button></td>
+				<td><button type="button" id="bequals" onclick="clickequals()">=</button></td>
+			</tr>
+			<tr>
+				<td><button type="button" id="bclear" onclick="clickclear()">C</button></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
